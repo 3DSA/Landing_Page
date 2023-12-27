@@ -1,4 +1,58 @@
-.headers {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: #1F2937;
+    height: 400px;
+    flex: 1 1 auto;
+    display: flex;
+}
+.headerleft {
+    flex: 1;
+    margin-left: 250px;
     display: inline-block;
-    width: 200px;
+    color: #F9FAF8;
+    font-family: Hero;
+    font-weight: bold;
+}
+#headerlogo {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+#headermaintext {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+#description {
+    font-size: 18px;
+    color: #9e9e9e;
+    font-weight: normal;
+}
+button {
+    font-size: 15px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+.headerright {
+    flex: 1;
+    margin-left: 150px;
+    display: inline-block;
+    color: #9e9e9e;
+    font-family: Hero;
+    font-weight: bold;
+}
+.bodyinfo {
+    flex: 1;
+    height: 400px;
+    background-color: #F9FAF8;
+}
+footer {
+    flex: 1 1 auto;
+    text-align: center;
+    background: #1F2937;
+    color: #F9FAF8;
 }
